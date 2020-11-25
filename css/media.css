@@ -1,0 +1,213 @@
+@media  (max-width:1399px){
+
+
+.widget_section {
+    padding: 58px 0 30px;
+    border-top: 1px solid;
+    margin-top: 100px;
+}
+
+}
+
+
+@media  (max-width:1199px) {
+    .product {
+    padding: 25px 0 0;
+}
+.sale {
+    padding: 0px 8px;
+}
+
+.sale p {
+    font-size: 14px;
+    
+}
+
+.button p {
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.product-content h5 {
+    font-size: 18px;
+}
+
+.product-content p {
+    font-size: 13px;
+}
+
+.product-content h6 {
+    font-size: 15px;
+   
+}
+.product-content span img {
+    max-width: 20px;
+    margin: 0;
+}
+.widget_section h4 {
+    font-size: 14px;
+}
+
+.widget_texts h5 {
+    font-size: 13px;
+}
+
+.widget_section p, .widget_section a {
+    font-size: 12px;
+    margin-bottom: 5px;
+    max-width: 200px;
+}
+.widget_section p, .widget_section a {
+    font-size: 13px;
+    margin-bottom: 5px;
+    max-width: 200px;
+}
+
+.text_us {
+    width: 55px;
+    font-size: 13px;
+}
+
+.widget_section input.form-control {
+    font-size: 13px;
+    max-width: 80%;
+}	   
+
+.envelop_button i {
+    font-size: 24px;
+ }
+.envelop_button {
+    left: 75%;
+    transform: translate(-20px, -75%);
+}
+
+}
+
+@media  (max-width:991px){
+	.user {
+    display: none!important;
+}
+
+.banner-section h1 {
+    max-width: 530px;
+}
+
+figure .optionbox select {
+    width: 250px;
+    height: 40px;
+}
+
+
+
+.sale p {
+    padding: 0px 5px;
+}
+
+.md-right {
+	float: right;
+}
+
+}
+
+
+@media  (max-width:767px){
+.top-head span a {
+    font-size: 14px;
+}
+.top-head .social-icon li {
+    padding: 0 5px;
+}
+.top-head .social-icon .optionbox select {
+    font-size: 13px;
+ }
+
+figure {
+    padding: 40px 0 0;
+}
+
+figure span {
+    font-size: 14px;
+}
+
+figure .optionbox select {
+    width: 200px;
+    height: 35px;
+}
+
+
+
+}
+
+
+
+@media  (max-width:575px){
+.top-head {
+    padding: 10px 19px;
+}
+.top-head span a {
+    font-size: 10px;
+}
+.top-head .social-icon li a {
+    font-size: 13px;
+}
+
+.top-banner {
+    padding: 10px 30px;
+}
+
+.top-banner a {
+    font-size: 11px;
+   
+}
+.banner-section {
+    height: 250px;
+}
+.banner-section h1 {
+    max-width: 360px;
+}
+
+
+
+
+footer img {
+    max-width: 280px!important;
+}
+
+.widget_section {
+    padding: 35px 30px ;
+    margin-top: 50px;
+}
+.button {
+    
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
