@@ -99,7 +99,7 @@
        </div>
         <div class="col-md-4">
           <ul class="user d-flex justify-content-end">
-            <li><a href="#"><i class="far fa-user"></i></a></li>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-user"></i></a></li>
             <li><a href="#"><i class="fas fa-search"></i></a></li>
             <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
           </ul>
@@ -107,6 +107,46 @@
        </div>
      </nav>
    </header>
+
+   <!-- modal and login box -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="container ">
+            <div class="row ">
+              <div class="col mx-auto p-0">
+                  <div class="card modal-content">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                      <div class="login-box">
+                          <div class="login-snip"> <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="taba">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="taba">Sign Up</label>
+                         
+                              <div class="login-space">
+                                  <div class="login">
+                                      <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Enter your username"> </div>
+                                      <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"> </div>
+                                      <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                                      <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+                                      <div class="hr"></div>
+                                      <div class="foot"> <a href="#">Forgot Password?</a> </div>
+                                  </div>
+                                  <div class="sign-up-form">
+                                      <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Create your Username"> </div>
+                                      <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password"> </div>
+                                      <div class="group"> <label for="pass" class="label">Repeat Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password"> </div>
+                                      <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" placeholder="Enter your email address"> </div>
+                                      <div class="group"> <input type="submit" class="button" value="Sign Up"> </div>
+                                      <div class="hr"></div>
+                                      <div class="foot"> <label for="tab-1">Already Member?</label> </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+ <!-- modal and login box -->
 
   <!-- top-banner -->
   <section class="top-banner">
